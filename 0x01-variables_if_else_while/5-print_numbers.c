@@ -10,7 +10,11 @@
 
 int main(void)
 {
-	int numb;
+	int i;
 
-	for (numb = 0; numb <= 10; numb++)
-		printf("%d\n", numb);
+	for (i = 0; i<= 10; i++)
+		printf("%d", i);
+	printf("\n");
+
+	return (0);
+}
