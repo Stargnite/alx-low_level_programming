@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * _abs() - check code. 
- * Return: 0.
+ * _abs - check code.
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: absolute value  of r.
  */
 int _abs(int r)
 {
