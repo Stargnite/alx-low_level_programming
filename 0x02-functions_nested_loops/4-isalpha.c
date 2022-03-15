@@ -2,13 +2,14 @@
 
 /**
  * _isalpha - check code.
+ * @c: An input characte
  * Description: a function that checks for alphabetic character.
- * Return 0.
+ * Return 0 or 1.
  */
 int _isalpha(int c)
 {
 	char lower, upper;
-	int letter  0;
+	int letter = 0;
 
 	for (lower = 'a'; lower < 'z'; lower++)
 	{
