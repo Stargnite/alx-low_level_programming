@@ -2,15 +2,21 @@
 
 /**
  * main - check description
- * Description: a function that prints the alphabet, in lowercase, followed by a new line.
+ * Description: a function that prints the alphabet, in lowercase, and new line
+ *
  * no return.
  */
 void print_alphabet(void)
 {
-	char i;
+	char ch;
 
+	ch ='a';
 
-	for (i = 'a'; i <= 'z'; i++)
-		_putchar(i);
-	_putchar('\n');
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n')
 }
