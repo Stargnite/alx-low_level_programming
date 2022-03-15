@@ -3,7 +3,8 @@
 /**
  * _isalpha - check main
  * @c: An input character
- * Description: a function that checks for alphabetic character.
+ * Description: a function that checks for alphabetic character
+ * letter, lowercase or uppercase.
  * Return 0 or 1.
  */
 int _isalpha(int c)
