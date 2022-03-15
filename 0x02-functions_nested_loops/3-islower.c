@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check code.
+ * _islower - check code.
  * Description: a code that checks for lower case characters.
  * Return: Nothing.
  */
@@ -15,7 +15,7 @@ int _islower(int c)
 		if (i == c)
 			lower = 1;
 	}
-	
+
 	return (lower);
 }
 
