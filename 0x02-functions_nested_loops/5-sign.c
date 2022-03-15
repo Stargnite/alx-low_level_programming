@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign() - check code.
- *
- * return 0 or 1.
+ * print_sign - check code.
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 0 or 1.
  */
 int print_sign(int n)
 {
