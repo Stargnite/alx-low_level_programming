@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * time_table() - check code.
- *
+ * times_table - check description
+ * Description: It prints 9 times table starting with 0.
  * Return: the 9 times table.
  */
-void time_table(void)
+void times_table(void)
 {
 	int i, j, n;
 
