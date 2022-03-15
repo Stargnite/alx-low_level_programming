@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - check code.
- *
+ * Description: function prints every minute in one day
  * Return: time.
  */
 void jack_bauer(void)
@@ -16,8 +16,8 @@ void jack_bauer(void)
 			_putchar((H / 10) + '0');
 			_putchar((H % 10) + '0');
 			_putchar(':');
-			_putcar((M / 10) + '0');
-			_puthar((M % 10) + '0');
+			_putchar((M / 10) + '0');
+			_putchar((M % 10) + '0');
 			_putchar('\n');
 		}
 	}
