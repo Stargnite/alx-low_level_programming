@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_line - prints a line in n chars long.
  * @n: length of line.
@@ -20,6 +19,6 @@ void print_line(int n)
 		{
 			_putchar('_');
 		}
-	_putchar('\n';
+	_putchar('\n');
 	}
 }
