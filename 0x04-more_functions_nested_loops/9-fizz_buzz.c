@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - fizzbuzz.
+ * main - replace multiples of 3 and 5.
  *
- * Return: Always 0
+ * Return: 0.
  */
 
 int main(void)
@@ -14,15 +14,26 @@ int main(void)
 	for (; i < 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+		{
+			printf("%s", "FizzBuzz");
+		}
 		else if (i % 3 == 0)
-			printf("Fizz ");
+		{
+			printf("%s", "Fizz");
+		}
 		else if (i % 5 == 0)
-			printf("Buzz ");
+		{
+			printf("%s", "Buzz");
+		}
 		else
+		{
 			printf("%d", i);
+		}
+		if (i != 100)
+		{
+			printf(" ");
+		}
 	}
-	printf("Buzz\n");
-	
+	printf("\n");
 	return (0);
 }
