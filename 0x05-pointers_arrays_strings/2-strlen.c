@@ -1,6 +1,8 @@
 #include "main.h"
-/** _strlen - check code
+/**
+ * _strlen - check code
  * Description: counts number of strings and print
+ * @s: An input string
  * Return: output
  */
 int _strlen(char *s)
