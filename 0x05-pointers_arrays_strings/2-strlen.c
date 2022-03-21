@@ -1,7 +1,7 @@
 #include "main.h"
 /** _strlen - check code
- * 
- * 
+ * Description: counts number of strings and print
+ * Return: output
  */
 int _strlen(char *s)
 {
