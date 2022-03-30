@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @brief _sqrt - find two iquals numbers multiplied iqual to n
+ * _sqrt - find two iquals numbers multiplied iqual to n
  * _sqrt_recursion - function that prints a string in reverse
  * @n: integer
  * @counter: number to multiply
