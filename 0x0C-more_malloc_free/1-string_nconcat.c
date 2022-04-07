@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * *string_nconcat - a function that concatrnates two strings
- * @n: unsigned int
- * @*s1: a char
- * @*s2: a char
- * Return: NULL if failed
+ * string_nconcat - A function that concatenates two strings
+ * @s1: An input pointer of the first string
+ * @s2: An input pointer of the second string
+ * @n: an input integer of number of string to concatenate
+ * Return: Apointer to concatened strings or NULL if it str is NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		s1 = "";
 
-		while (s1[lens1])
+	while (s1[lens1])
 		lens1++;
 
 	if (s2 == NULL)
